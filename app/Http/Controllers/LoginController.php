@@ -14,7 +14,7 @@ class LoginController extends Controller
      */
     public function showLoginForm()
     {
-        return view('auth.login'); // Mengarahkan ke view login
+        return view('login'); // Mengarahkan ke view login
     }
 
     /**
